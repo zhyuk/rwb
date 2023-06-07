@@ -1,21 +1,24 @@
 .Serif {
     font-family: "Noto Serif KR", serif;
 }
+
 .clear {
     clear: both;
 }
 
 * {
     box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
 }
+
 a {
     color: #fff;
 }
+
 body {
     background-color: #000;
     color: #fff;
-    font-family:"Noto Sans KR",sans-serif;
-    font-weight:500;
 }
 
 header {
