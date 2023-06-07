@@ -1,0 +1,123 @@
+aside{
+    width: 100%;
+    color: #fff;
+    /* border: solid 1px red; */
+}
+.style_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+}
+.style_nav_menu {
+    display: flex;
+    font-size: 1.5rem;
+    color: #fff;
+    /* border: solid 1px blue; */
+}
+.style_nav_menu li {
+    padding: 8px 12px;
+}
+.select{
+    font-weight:800;
+    border-bottom:#5AB3D8 4px solid;
+
+}
+a:hover{
+    color: #5AB3D8;
+}
+section {
+    width: 100%;
+    margin-top: 3%;
+    /* border: solid 1px red; */
+}
+
+section .text {
+    width: 100%;
+    float: left;
+    padding: 8px 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #5AB3D8;
+    /* border: solid 1px blue; */
+}
+
+section .text h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    padding: 10px;
+}
+
+section .img {
+    width: 60%;
+    float: left;
+    /* border: solid 1px greenyellow; */
+}
+
+section .img img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+section .introduce {
+    width: 35%;
+    float: right;
+    padding: 8px 12px;
+    /* border: solid 1px green; */
+}
+
+section .introduce h1 {
+    width: 100%;
+    font-size: 2rem;
+    padding: 10px;
+    text-align: center;
+    font-weight: 900;
+    color: #5AB3D8;
+}
+section .introduce ul h1{
+    width: 100%;
+    margin-top: 5%;
+    font-size: 1.7rem;
+    text-align: left;
+}
+section .introduce li {
+    width: 100%;
+    padding: 4px 8px;
+    font-size: 1.5rem;
+    font-weight: 300;
+    /* border: solid 1px red; */
+}
+@media only screen and (max-width:1194px){
+    section .text h1 {
+        font-size: 2rem;
+    }
+    section .introduce {
+        width: 40%;
+    }
+    section .introduce h1 {
+        font-size: 1.5rem;
+    }
+    section .introduce ul h1 {
+        font-size: 1.3rem;
+    }
+    section .introduce li {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width:625px) and (max-width:768px){
+    section .text{
+        width: 100%;
+    }
+    section .img {
+        width: 100%;
+    }
+    section .introduce {
+        width: 100%;
+        text-align: center;
+    }
+    section .introduce ul h1 {
+        font-size: 1rem;
+        text-align: center;
+    }
+}

@@ -1,0 +1,156 @@
+.Serif {
+    font-family: "Noto Serif KR", serif;
+}
+.clear {
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+a {
+    color: #fff;
+}
+body {
+    background-color: #000;
+    color: #fff;
+    font-family:"Noto Sans KR",sans-serif;
+    font-weight:500;
+}
+
+header {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    height: 100px;
+    background-color: #000;
+    font-weight: 700;
+    border-bottom: solid 3px #fff;
+    /* border: solid 1px red; */
+}
+
+.site_nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 12px;
+}
+
+.site_nav_logo img {
+    width: 100%;
+}
+
+.site_nav_logo a:hover {
+    content: url(../img/logo_hover.png);
+    filter: drop-shadow(0 0 5px #5AB3D8);
+}
+
+.site_nav_menu {
+    display: flex;
+    font-size: 24px;
+    /* border: solid 1px blue; */
+}
+
+.site_nav_menu li {
+    padding: 8px 12px;
+    /* border: solid 1px green; */
+}
+
+.site_nav_menu a {
+    color: #fff;
+}
+
+.site_nav_menu a:hover {
+    color: #5AB3DB;
+    cursor: pointer;
+    background-size: 100% 100%;
+    filter: drop-shadow(0 0 5px #5AB3D8);
+}
+
+.content {
+    width: 83.33%;
+    margin: 0 auto;
+    /* border: solid 1px green; */
+}
+
+
+
+footer {
+    width: 100%;
+    padding: 15px;
+    float: left;
+    height: 120px;
+    background-color: #5AB3D8;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10%;
+    color: #000;
+}
+
+.footer_logo {
+    padding: 8px 12px;
+}
+
+.footer_logo img {
+    width: 15%;
+    /* border: solid 1px red; */
+}
+
+.footer_text {
+    width: 60%;
+    float: right;
+    /* border: solid 1px blue; */
+}
+
+.footer_text li {
+    text-align: right;
+    padding: 3px 6px;
+    font-size: 1rem;
+}
+
+.footer_text li#copyright {
+    color: #696F93;
+}
+
+/* Table Ver. */
+@media only screen and (max-width:1194px) {
+    .footer_logo img {
+        width: 30%;
+    }
+
+    .footer_text {
+        width: 170%;
+    }
+}
+
+/* Phone Ver. */
+@media only screen and (min-width:625px) and (max-width:768px) {
+    header {
+        height: 150px;
+    }
+
+    .site_nav {
+        flex-direction: column;
+    }
+
+    .site_nav_menu {
+        margin-top: 5%;
+    }
+}
+
+/* Phone min Ver. */
+@media only screen and (max-width:624px) {
+    header {
+        height: 150px;
+    }
+
+    .site_nav {
+        flex-direction: column;
+    }
+
+    .site_nav_menu {
+        margin-top: 5%;
+        font-size: 1rem;
+    }
+}

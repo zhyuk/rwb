@@ -1,0 +1,93 @@
+main {
+    width: 100%;
+    margin-top: 5%;
+}
+
+main .list {
+    width: 100%;
+}
+
+main ul li {
+    width: 18%;
+    float: left;
+    margin: 3% 1%;
+    overflow: hidden;
+    /* border: solid 1px red; */
+}
+
+main ul li img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+@keyframes imgSlide {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        height: 1;
+    }
+}
+
+main ul li img:hover {
+    border: solid 4px #5AB3D8;
+}
+
+.img1:hover {
+    content: url(../img/work01_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+.img2:hover {
+    content: url(../img/work02_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+.img3:hover {
+    content: url(../img/work03_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+.img4:hover {
+    content: url(../img/work04_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+.img5:hover {
+    content: url(../img/work05_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+.img6:hover {
+    content: url(../img/work06_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+.img7:hover {
+    content: url(../img/work07_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+.img8:hover {
+    content: url(../img/work09_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+.img9:hover {
+    content: url(../img/work08_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+.img10:hover {
+    content: url(../img/work10_2.png);
+    animation: imgSlide 2s ease-out forwards;
+}
+
+@media only screen and (min-width:625px) and (max-width:768px) {
+    .item {
+        width: 45%;
+        margin: 3% 2.5%;
+    }
+}
