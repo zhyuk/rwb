@@ -86,9 +86,6 @@ section:nth-child(2) p {
 }
 
 @media only screen and (max-width:1194px) {
-    body {
-        background-color: aqua;
-    }
 
     section:nth-child(2) h1 {
         font-size: 1.7rem;
