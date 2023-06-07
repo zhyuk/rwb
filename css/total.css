@@ -8,8 +8,6 @@
 
 * {
     box-sizing: border-box;
-    font-family: "Noto Sans KR", sans-serif;
-    font-weight: 500;
 }
 
 a {
@@ -19,6 +17,8 @@ a {
 body {
     background-color: #000;
     color: #fff;
+    font-family: "Noto Sans KR", sans-serif;
+    font-weight: 500;
 }
 
 header {
