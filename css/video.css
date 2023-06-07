@@ -1,6 +1,4 @@
-body{
-    background-color: #000;
-}
+
 section {
     width: 83.33%;
     height: 30%;
@@ -41,7 +39,6 @@ section iframe {
     margin-top: 3%;
     /* border: solid 1px green; */
 }
-
 @media only screen and (max-width:1194px) {
     section .video{
         margin-top: 5%;
