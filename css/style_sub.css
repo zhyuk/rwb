@@ -13,6 +13,7 @@ aside{
     display: flex;
     font-size: 1.5rem;
     color: #fff;
+    text-align: center;
     /* border: solid 1px blue; */
 }
 .style_nav_menu li {
@@ -106,6 +107,9 @@ section .introduce li {
     }
 }
 @media only screen and (min-width:625px) and (max-width:768px){
+    .style_nav_menu{
+        font-size: 1rem;
+    }
     section .text{
         width: 100%;
     }
